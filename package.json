@@ -1,0 +1,13 @@
+{
+  "name": "mis-quince-boutique",
+  "version": "1.0.0",
+  "description": "Mis Quince Boutique - Los mejores vestidos de quinceañera",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["quinceanera", "boutique", "dresses"],
+  "author": "",
+  "license": "ISC"
+}
