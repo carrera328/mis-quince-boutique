@@ -171,6 +171,15 @@ ul {
   font-weight: 700;
   color: var(--white);
   transition: color var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.logo-butterfly {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
 }
 
 .logo em {
