@@ -12,11 +12,14 @@
 }
 
 :root {
-  --pink: #c9184a;
-  --pink-light: #f8d7da;
-  --pink-soft: #fff0f3;
-  --gold: #b08968;
-  --gold-light: #ddb892;
+  --pink: #C2185B;
+  --pink-dark: #880E4F;
+  --pink-light: #F8BBD0;
+  --pink-soft: #FFF0F6;
+  --purple: #7B1FA2;
+  --purple-soft: #F3E5F5;
+  --gold: #D4A056;
+  --gold-light: #E8C88A;
   --dark: #1a1a2e;
   --dark-soft: #2d2d44;
   --white: #ffffff;
@@ -82,9 +85,9 @@ ul {
 }
 
 .btn-primary:hover {
-  background: #a4133c;
+  background: var(--pink-dark);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(201, 24, 74, 0.3);
+  box-shadow: 0 6px 20px rgba(194, 24, 91, 0.3);
 }
 
 .btn-outline {
@@ -118,7 +121,7 @@ ul {
 }
 
 .btn-nav:hover {
-  background: #a4133c;
+  background: var(--pink-dark);
 }
 
 .btn-full {
@@ -249,8 +252,8 @@ ul {
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(26, 26, 46, 0.5) 0%,
-    rgba(26, 26, 46, 0.7) 100%
+    rgba(50, 18, 40, 0.5) 0%,
+    rgba(30, 12, 28, 0.75) 100%
   );
 }
 
