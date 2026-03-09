@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Observe elements for scroll animations
   document.querySelectorAll(
-    '.dress-card, .gallery-item, .social-card, .faq-item, .about-content, .about-images, .section-title, .section-subtitle'
+    '.dress-card, .gallery-item, .catalog-card, .faq-item, .about-content, .about-images, .section-title, .section-subtitle'
   ).forEach(el => {
     el.classList.add('animate-target');
     observer.observe(el);
