@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mis-quince-boutique.onpenguin.com/sitemap.xml
